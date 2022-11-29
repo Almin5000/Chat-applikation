@@ -1,0 +1,1 @@
+C:\Users\HFGF\source\repos\ChatAppSignalR\ChatAppMobile\ChatAppMobile.csproj;x64
