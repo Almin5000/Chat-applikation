@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatAppMobile.Views.GroupChatView"
+             Title="{Binding Title}"
+             xmlns:viewmodel="clr-namespace:ChatAppMobile.ViewModels"
+             x:DataType="viewmodel:ChatViewModel">
+    
+    <ContentPage.BindingContext>
+        <viewmodel:ChatViewModel/>
+    </ContentPage.BindingContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackLayout Padding="10">
+
+            <ListView Grid.ColumnSpan="2" ItemsSource="{Binding Messages}"
+                      VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Message}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Entry Grid.Row="1" HorizontalOptions="FillAndExpand" Text="{Binding MessageModel.Message}" Margin="10,0,10,0" Placeholder="Type:"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Send" IsEnabled="{Binding IsConnected}" Margin="10" WidthRequest="300" TextColor="Black"
+                    Command="{Binding SendMessageCommand}"/>
+        </StackLayout>
+        <ActivityIndicator Grid.ColumnSpan="2" 
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"/>
+    </Grid>
+</ContentPage>

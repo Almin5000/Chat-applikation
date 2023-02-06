@@ -1,4 +1,6 @@
-﻿namespace ChatAppMobile
+﻿using ChatAppMobile.Views;
+
+namespace ChatAppMobile
 {
     public partial class App : Application
     {
@@ -6,7 +8,10 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new AppShell();
+            //MainPage = new GroupChatView();
+
         }
     }
 }

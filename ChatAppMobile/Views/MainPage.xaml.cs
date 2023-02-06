@@ -1,15 +1,15 @@
-﻿//using Microsoft.AspNetCore.SignalR.Client;
-
+﻿using ChatAppMobile.Model;
 using ChatAppMobile.ViewModels;
+using ChatAppMobile.Views;
 
 namespace ChatAppMobile
 {
     public partial class MainPage : ContentPage
     {
-        MainViewModel vm;
-        MainViewModel VM
+        LobbyViewModel vm;
+        LobbyViewModel VM
         {
-            get => vm ?? (vm = (MainViewModel)BindingContext);
+            get => vm ?? (vm = (LobbyViewModel)BindingContext);
         }
         public MainPage()
         {
@@ -17,16 +17,28 @@ namespace ChatAppMobile
 
         }
 
-        protected override void OnAppearing()
+        //async void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        //{
+
+        //    await VM.GoToGroupChat(Navigation, e.SelectedItem as string);
+        //    ((ListView)sender).SelectedItem = null;
+        //}
+
+        async private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            base.OnAppearing();
-            VM.ConnectCommand.Execute(null);
+            var item = e.Item as RoomsModel;
+            await VM.GoToGroupChat(Navigation, item.Room as string);
+            ((ListView)sender).SelectedItem = null;
         }
 
-        protected override void OnDisappearing()
+        private INavigation GetNavigation()
         {
-            base.OnDisappearing();
-            VM.DisconnectCommand.Execute(null);
+            return Navigation;
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PrivateChat());
         }
     }
 }

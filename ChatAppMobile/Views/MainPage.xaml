@@ -3,31 +3,77 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChatAppMobile.MainPage"
              xmlns:viewmodel="clr-namespace:ChatAppMobile.ViewModels"
-             x:DataType="viewmodel:MainViewModel">
+             x:DataType="viewmodel:LobbyViewModel" BackgroundColor="#112B47">
 
     <ContentPage.BindingContext>
-        <viewmodel:MainViewModel/>
+        <viewmodel:LobbyViewModel/>
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="10">
-        <Entry Text="{Binding MessageModel.User}"/>
-        <Entry Text="{Binding MessageModel.Message}"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--<BoxView Grid.RowSpan="3">
+            <BoxView.Background>
+                <LinearGradientBrush>
+                    <GradientStopCollection>
+                        <GradientStop Color="#161616" Offset="0"/>
+                        <GradientStop Color="#30343F" Offset="1"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--<Path Grid.Row="0" Grid.RowSpan="3"  Aspect="Fill" Fill="#FFA500" />-->
+            <!--<StackLayout Orientation="Horizontal" Padding="10" HorizontalOptions="Center">-->
+            <Label Grid.Row="2" FontSize="Small" Text="Username" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" Margin="-10"/>
+            <Entry Grid.Row="2" Text="{Binding UserName}" WidthRequest="300" Placeholder="Type:" HeightRequest="40" TextColor="White" BackgroundColor="Transparent" FontAttributes="Bold" HorizontalOptions="Center"/>
 
-        <Button Text="Send Message" IsEnabled="{Binding IsConnected}"
-                Command="{Binding SendMessageCommand}"/>
+        <!--</StackLayout>-->
+        </Grid>
+        <StackLayout Grid.Row="1">
+            <Button Clicked="Button_Clicked" Text="Private Room" TextColor="Black" BackgroundColor="White" FontAttributes="Bold" WidthRequest="150" CornerRadius="20"/>
+            <Label FontSize="Small" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            <ListView ItemsSource="{Binding Rooms2}" HorizontalOptions="Center"
+                      ItemTapped="ListView_ItemTapped"
+                      HasUnevenRows="True"
+                      BackgroundColor="Transparent"
+                      SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" WidthRequest="350">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Frame Margin="10"
+                                       Grid.ColumnSpan="2"
+                                       CornerRadius="20"
+                                        BackgroundColor="Transparent"
+                                      BorderColor="Green">
+                                    <StackLayout>
+                                        <Label Text="{Binding Room}" TextColor="White" HorizontalOptions="Start" FontAttributes="Bold"/>
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
-        <ActivityIndicator IsRunning="{Binding IsBusy}"
-                           IsVisible="{Binding IsBusy}"/>
+        </StackLayout>
+    </Grid>
 
-        <ListView ItemsSource="{Binding Messages}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Message}"/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
-    
 
     <!--<Grid
         RowDefinitions="Auto, 7*, Auto, Auto">

@@ -1,1 +1,1 @@
-C:\Users\HFGF\source\repos\ChatAppSignalR\ChatAppMobile\ChatAppMobile.csproj;x64
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\ChatAppMobile\ChatAppMobile.csproj;x64

@@ -24,3 +24,99 @@ C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\obj\Debug\net6.0\refint\
 C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\obj\Debug\net6.0\SignalRServer.pdb
 C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\obj\Debug\net6.0\SignalRServer.genruntimeconfig.cache
 C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\obj\Debug\net6.0\ref\SignalRServer.dll
+C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HFGF\source\repos\ChatAppSignalR\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CopyComplete
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.staticwebassets.runtime.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.exe
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.deps.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.runtimeconfig.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.dll
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.pdb
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.AssemblyReference.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfoInputs.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfo.cs
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cs
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\bundle\SignalRServer.styles.css
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\projectbundle\SignalRServer.bundle.scp.css
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CopyComplete
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.dll
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\refint\SignalRServer.dll
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.pdb
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.genruntimeconfig.cache
+C:\Users\HFGF\Downloads\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\ref\SignalRServer.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.Development.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.staticwebassets.runtime.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.exe
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.deps.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.runtimeconfig.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.pdb
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.AssemblyReference.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfoInputs.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfo.cs
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CoreCompileInputs.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.MvcApplicationPartsAssemblyInfo.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cs
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.build.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.development.json
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\bundle\SignalRServer.styles.css
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\projectbundle\SignalRServer.bundle.scp.css
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CopyComplete
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\refint\SignalRServer.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.pdb
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.genruntimeconfig.cache
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\ref\SignalRServer.dll
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.SignalRServer.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.build.SignalRServer.props
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SignalRServer.props
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SignalRServer.props
+D:\HF4 ting\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\appsettings.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.staticwebassets.runtime.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.exe
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.deps.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.runtimeconfig.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.dll
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\SignalRServer.pdb
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.AssemblyReference.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfoInputs.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.AssemblyInfo.cs
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CoreCompileInputs.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.RazorAssemblyInfo.cs
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.SignalRServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.build.SignalRServer.props
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SignalRServer.props
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SignalRServer.props
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\bundle\SignalRServer.styles.css
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\scopedcss\projectbundle\SignalRServer.bundle.scp.css
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.csproj.CopyComplete
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.dll
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\refint\SignalRServer.dll
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.pdb
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\SignalRServer.genruntimeconfig.cache
+C:\Users\Almi0098\Desktop\ChatAppSignalR2\SignalRServer\obj\Debug\net6.0\ref\SignalRServer.dll
